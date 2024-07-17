@@ -5,7 +5,8 @@ body {
     background: linear-gradient(135deg, #1a1a1a, #333);
     color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
 }
@@ -86,7 +87,8 @@ body {
     padding: 10px 0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-top: 30px;
+    width: 100%;
+    margin-top: auto;
 }
 
 .nav-button {
